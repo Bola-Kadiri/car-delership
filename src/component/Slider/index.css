@@ -1,0 +1,39 @@
+.slider-house{
+    margin-top: -35px;
+    font-family: Inter;
+    margin-right: 5px;
+}
+.slider{
+    width: 90%;
+    height: 2.5px;
+    background-color: #0c1e5e;
+    margin-top: 10px;
+    background: #FE6C04;
+
+}
+.flex-price{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.flex-price-2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.thumb{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #0c1e5e;
+  
+    border: 2px solid #fff;
+    top: -13px
+}

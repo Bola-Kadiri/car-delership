@@ -1,0 +1,41 @@
+.exact{
+    width: 84%;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.exact_left{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+
+.exact_right{
+    width: 40%;
+  
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.exact_right h3{
+ 
+    color: #ff7103;
+}
+
+  .car_info{
+    box-shadow:0px 4px 10px 0px #679FD24F;
+    border-radius: 8px;
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background-color: #f36c0450;
+    background-color: rgb(12, 30, 95);
+       background-color: #0c1e5e;
+       
+       background-image: linear-gradient(to bottom, rgba(17, 47, 200, 0.2),rgba(137, 0, 63, 0.2));
+  }

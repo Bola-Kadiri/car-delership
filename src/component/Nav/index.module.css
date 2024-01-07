@@ -1,0 +1,124 @@
+.nav_header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    font-family: Raleway;
+    position: sticky;
+    top:  0;
+    left: 0;
+    z-index: 200
+}
+.nav_content{
+    width: 41.7%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_content li{
+   list-style-type: none;
+}
+
+    
+
+.search{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input_search{
+    width: 187px;
+    height: 45px;
+    outline: none;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: #757575;
+    margin-right: 40px;
+    border-top: 1px solid rgb(215, 202, 202);
+    border-bottom: 1px solid rgb(215, 202, 202);
+    border-right: 0px solid rgb(215, 202, 202);
+    border-left: 1px solid rgb(215, 202, 202);
+}
+.input_text{
+   width: 100%;
+   height: 45px;
+   border: none;
+   outline: none;
+   position: absolute;
+   background: #F6F6F6;
+   font-size: 16px;
+   padding: 10px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: #757575;
+   margin-left: 20px; 
+   border-top: 1px solid rgb(215, 202, 202);
+   border-bottom: 1px solid rgb(215, 202, 202);
+   border-right: 1px solid rgb(215, 202, 202);
+   border-left: 0px solid rgb(215, 202, 202);
+}
+
+
+.input_search img{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+.search_btn{
+    width: 84.22px;
+    height: 35px;
+    background: #FE6C04;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.4531px;
+    line-height: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.nav_link{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #032763;
+}
+.nav_link div a{
+    text-decoration: none;
+    color: #032763;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Raleway;
+    list-style-type: none;
+}
+.phone{
+    color: #032763;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Raleway; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.phone span{
+    margin-left: 3px;
+}
+
