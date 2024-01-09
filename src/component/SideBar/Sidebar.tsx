@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 import SubMenu from './SubMenu/SubMenu';
 import { ReactNode } from 'react';
 
@@ -11,8 +10,8 @@ const SidebarNav = styled.nav`
   position: sticky;
   margin-top: 70px;
   transition: 350ms;
-  font-family: 'Inter'; /* Make sure to enclose font name in quotes */
-  font-size: 15px; /* Added missing semicolon *
+  font-family: 'Inter';
+  font-size: 15px;
 `;
 
 const SidebarWrap = styled.div`
@@ -22,8 +21,8 @@ const SidebarWrap = styled.div`
 
 interface SubNavItem {
   title: string | JSX.Element;
-  path?: string;
-  cName?: string;
+  path: string;
+
 }
 
 interface SidebarItem {
@@ -37,18 +36,16 @@ interface SidebarProps {
   data: SidebarItem[];
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ data }) => {
-  return (
-    <>
-      <SidebarNav>
-        <SidebarWrap>
-          {data.map((item, index: number) => (
-            <SubMenu item={item} key={index} />
-          ))}
-        </SidebarWrap>
-      </SidebarNav>
-    </>
-  );
-};
+const Sidebar: React.FC<SidebarProps> = ({ data }) => (
+  <>
+    <SidebarNav>
+      <SidebarWrap>
+        {data.map((item, index: number) => (
+          <SubMenu item={item} key={index} />
+        ))}
+      </SidebarWrap>
+    </SidebarNav>
+  </>
+);
 
 export default Sidebar;

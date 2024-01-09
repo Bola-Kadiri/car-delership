@@ -10,7 +10,7 @@ import { LiaTimesSolid } from "react-icons/lia";
 
 
 
-const array_image = [image1, image2, image3,  image4, image5,image1, image2, image3, image4, image5, image1, image2]
+const array_image = [image1, image2, image3,  image4, image5]
 const SingleCar = ({handleClose}) => {
     const [selectedImage, setSelectedImage] = useState(image1)
     const [allImage] = useState(array_image)
@@ -34,7 +34,7 @@ const SingleCar = ({handleClose}) => {
                      onClick={()=>setSelectedImage(image)}
                      width="100%"
                      height="100%"
-                     style={{marginBottom: "10px"}}
+                     style={selectedImage===image ? {border: "3px solid #FE6C04", cursor: "pointer",marginBottom: "10px"} : {cursor: "pointer",marginBottom: "10px"}}
                     />
                     </div>
                 )

@@ -41,7 +41,7 @@ const ForeignCar = () => {
     setPage(value);
   };
   const [open, setOpen] = useState(false)
-  const handleShow=()=>{
+  const handleShow=(): void=>{
     setOpen(true)
   }
   const handleClose=()=>{

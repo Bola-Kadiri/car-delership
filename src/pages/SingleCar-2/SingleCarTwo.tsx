@@ -33,7 +33,7 @@ const SingleCarTwo = () => {
                      onClick={()=>setSelectedImage(image)}
                      width="95%"
                      height="100%"
-                     style={{marginBottom: "10px"}}
+                     style={selectedImage===image ? {border: "3px solid #FE6C04", cursor: "pointer", marginBottom: "10px"} : {cursor: "pointer", marginBottom: "10px"}}
                     />
                     </div>
                 )
