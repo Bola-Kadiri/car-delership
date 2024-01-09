@@ -21,8 +21,7 @@ const SidebarWrap = styled.div`
 
 interface SubNavItem {
   title: string | JSX.Element;
-  path: string;
-
+  path: string; // Update this line to make the path required
 }
 
 interface SidebarItem {
@@ -30,6 +29,7 @@ interface SidebarItem {
   iconClosed: ReactNode;
   iconOpened: ReactNode;
   subNav: SubNavItem[];
+  path?: string
 }
 
 interface SidebarProps {

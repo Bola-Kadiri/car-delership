@@ -17,6 +17,7 @@ export const SidebarData = [
     title: 'Price Range',
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
+    path: '/price-range', // Add path
 
     subNav: [
       {
@@ -30,10 +31,11 @@ export const SidebarData = [
    
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
+    path: '/price-range', // Add path
 
     subNav: [
       {
-        title: <YearSlider/>
+        title: <YearSlider/>,
        
       },
      
@@ -46,6 +48,7 @@ export const SidebarData = [
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
+    path: '/price-range', // Add path
 
     subNav: [
       {
@@ -106,7 +109,7 @@ export const SidebarData = [
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
-
+    path: '/price-range', // Add path
     subNav: [
       {
         title: 'Toyota',

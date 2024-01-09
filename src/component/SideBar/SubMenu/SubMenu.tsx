@@ -65,7 +65,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ item }) => {
     <>
       <SidebarLink to={"#"} onClick={item.subNav ? showSubnav : undefined}>
         <div style={{ width: '100%' }}>
-          {item.icon}
+          
           <SidebarLabel>{item.title}</SidebarLabel>
         </div>
         <div>
